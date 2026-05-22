@@ -10,6 +10,7 @@ import Education from './sections/Education'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import FloatingShapes from './components/FloatingShapes'
+import { Analytics } from '@vercel/analytics/react'
 
 function App() {
   const [scrollY, setScrollY] = useState(0)
@@ -63,6 +64,7 @@ function App() {
             <Contact />
           </main>
           <Footer />
+          <Analytics />
         </motion.div>
       )}
     </AnimatePresence>
