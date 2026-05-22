@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { Mail, MapPin, Phone, Github, Send, Sparkles, Linkedin } from 'lucide-react'
+import { Mail, MapPin, Github, Send, Sparkles, Linkedin } from 'lucide-react'
 import { SiHuggingface } from 'react-icons/si'
 
 export default function Contact() {
